@@ -1,0 +1,12 @@
+# Virtual environment
+health_env/
+
+# Environment variables
+.env
+
+# Chroma DB
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
