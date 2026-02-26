@@ -1,14 +1,22 @@
-# Virtual environment
+# Virtual environments
 health_env/
-
-# Environment variables
+api_env/
+venv/
 .env
 
-# Chroma DB
-chroma_db/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 
-h_env/
+# ChromaDB
+chromadb/
+chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large ML binaries
+*.dll
+*.pyd
+*.so
